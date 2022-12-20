@@ -91,7 +91,6 @@ void printList()
 	cout << endl;
 }
 
-// Driver's code
 int main()
 {
 
@@ -128,11 +127,9 @@ int main()
 	head->right->right->right
 		= push(head->right->right->right, 20);
 
-	// Function call
 	head = flatten(head);
 
 	printList();
 	return 0;
 }
 
-// This code is contributed by rajsanghavi9.
